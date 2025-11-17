@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+output/
+*.stl
+*.obj
+*.ply
+
+*.csv
+
