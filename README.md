@@ -3,9 +3,6 @@
 A lightweight, fast, and robust Python tool that fits a **3D Gaussian-like spherical pattern** to real-world antenna radiation data using **spherical harmonics expansion**.  
 Perfect for antenna engineers who want to convert measured (or simulated) far-field data into a smooth, compact, and visually appealing 3D model.
 
-![example](output/example_pattern.png)  
-_Example of a fitted multi-lobe ellipsoidal pattern (L = 10)_
-
 ## Key Features
 
 - Pure NumPy + SciPy + Matplotlib → no heavy dependencies
@@ -26,7 +23,7 @@ cd 3D_Gaussian_fitting
 # 2. Install dependencies
 pip install numpy scipy matplotlib pandas numpy-stl
 
-# 3. Put your data as example_data.csv (see format below)
+# 3. Put your data as example_data.csv 
 
 # 4. Run
 python gaussian_sphere_fit.py
